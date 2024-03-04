@@ -1,0 +1,1413 @@
+repo_name: a-ghasemi/platejs
+report_id: d1463b01907edaefdc65d550816e10fc
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-04T11:26:22+00:00'
+requested_by: zbeyens
+provider: github
+branch: main
+detected_tools_count: 110
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/a-ghasemi/platejs
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/a-ghasemi/platejs
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/a-ghasemi/platejs
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/a-ghasemi/platejs
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: Jotai
+  description: Primitive and flexible state management for React
+  website_url: https://jotai.org/
+  license: MIT
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/104809/default_a92a415b1e57e7ff4b57998b50887b69d1c96701.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2024-02-14 19:10:08.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 18.18.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 18:28:42.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/e2e-examples/package.json
+  detection_source: apps/e2e-examples/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: Zustand
+  description: Bear necessities for state management in React
+  website_url: https://github.com/react-spring/zustand
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Monitoring for Analytics
+  image_url: https://img.stackshare.io/service/11559/zustand.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 16:43:06.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2019-12-02 01:36:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/a-ghasemi/platejs
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/.github/workflows/ci-templates.yml
+  detection_source: ".github/workflows/ci-templates.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:11:51.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2019-12-02 01:36:05.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/e2e-examples/package.json
+  detection_source: apps/e2e-examples/package.json
+  last_updated_by: Joe Anderson
+  last_updated_on: 2023-03-14 20:29:45.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/test/fixtures/project-yarn/yarn.lock
+  detection_source: packages/cli/test/fixtures/project-yarn/yarn.lock
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/serializer-md/package.json
+  detection_source: packages/serializer-md/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2021-03-22 15:33:42.000000000 Z
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/code-block/package.json
+  detection_source: packages/code-block/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/a-ghasemi/platejs
+  detection_source: Repo Metadata
+- name: Slate
+  description: Beautiful static documentation for your API, inspired by Stripe's and
+    Paypal's API docs
+  website_url: https://github.com/tripit/slate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/4189/preview.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Joe Anderson
+  last_updated_on: 2024-02-17 19:26:05.000000000 Z
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-07-13 15:49:47.000000000 Z
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Joe Anderson
+  last_updated_on: 2024-02-17 19:26:05.000000000 Z
+- name: downshift
+  description: Primitive to build simple, flexible, WAI-ARIA compliant enhanced input
+    React components
+  website_url: https://github.com/paypal/downshift
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10155/no-img-open-source.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/combobox/package.json
+  detection_source: packages/combobox/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: eslint-plugin-tailwindcss
+  description: Rules enforcing best practices and consistency using Tailwind CSS.
+  website_url: https://www.npmjs.com/package/eslint-plugin-tailwindcss
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48327/default_e1e547104832f8e187369b19e928e17a8be5020b.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 17:27:54.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: "@testing-library/react-hooks"
+  description: Simple and complete React hooks testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react-hooks
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17877/default_d41d3b5a213e129d6ea411e77eecb13f54b6aea5.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: "@types/eslint"
+  description: TypeScript definitions for eslint
+  package_url: https://www.npmjs.com/@types/eslint
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18156/default_9663441986aa2be78296ccf617e43ef9e612b34e.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/test/fixtures/t3-app/package.json
+  detection_source: packages/cli/test/fixtures/t3-app/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-09-29 11:50:03.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 16:49:43.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 16:49:43.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 17:27:54.000000000 Z
+- name: "@types/prettier"
+  description: TypeScript definitions for prettier
+  package_url: https://www.npmjs.com/@types/prettier
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/test/fixtures/t3-app/package.json
+  detection_source: packages/cli/test/fixtures/t3-app/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: "@types/validator"
+  description: TypeScript definitions for validator.js
+  package_url: https://www.npmjs.com/@types/validator
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17698/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 16:49:43.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: "@vercel/analytics"
+  description: Gain real-time traffic insights with Vercel Web Analytics
+  package_url: https://www.npmjs.com/@vercel/analytics
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-07-13 15:49:47.000000000 Z
+- name: app-root-path
+  description: Determine an app's root path from anywhere inside the app
+  package_url: https://www.npmjs.com/app-root-path
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16640/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 17:27:54.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: change-case
+  description: Transform a string between `camelCase`
+  package_url: https://www.npmjs.com/change-case
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16612/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-07-27 15:45:10.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-09-17 10:17:40.000000000 Z
+- name: cosmiconfig
+  description: Find and load configuration from a package.json property
+  package_url: https://www.npmjs.com/cosmiconfig
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17133/default_aae1698f13b22e457dce8faa3612b71379cf7a48.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-07-13 15:49:54.000000000 Z
+- name: delay
+  description: Delay a promise a specified amount of time
+  package_url: https://www.npmjs.com/delay
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16897/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cloud/package.json
+  detection_source: packages/cloud/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2022-11-14 00:01:25.000000000 Z
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: downshift
+  description: A set of primitives to build simple
+  package_url: https://www.npmjs.com/downshift
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18017/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/combobox/package.json
+  detection_source: packages/combobox/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 17:27:54.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-import-resolver-typescript
+  description: TypeScript .ts .tsx module resolver for `eslint-plugin-import`
+  package_url: https://www.npmjs.com/eslint-import-resolver-typescript
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18380/default_d0ba753d47207ad8f04b02befcab81c50f38718f.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: eslint-plugin-chai-friendly
+  description: This plugin makes 'no-unused-expressions' rule friendly towards chai
+    expect statements
+  package_url: https://www.npmjs.com/eslint-plugin-chai-friendly
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17721/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-plugin-cypress
+  description: An ESLint plugin for projects using Cypress
+  package_url: https://www.npmjs.com/eslint-plugin-cypress
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18548/default_0998c3a5bd64540d478b8f189bd9d22c3c17b6a0.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: eslint-plugin-unicorn
+  description: Various awesome ESLint rules
+  package_url: https://www.npmjs.com/eslint-plugin-unicorn
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16871/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: execa
+  description: Process execution for humans
+  package_url: https://www.npmjs.com/execa
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16132/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: fast-glob
+  description: It's a very fast and efficient glob library for Node.js
+  package_url: https://www.npmjs.com/fast-glob
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2024-01-22 15:53:35.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: html-entities
+  description: Faster HTML entities encode/decode library
+  package_url: https://www.npmjs.com/html-entities
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17291/default_116e98e237458e603feb81cfbf628c00544be692.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/serializer-html/package.json
+  detection_source: packages/serializer-html/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: https-proxy-agent
+  description: An HTTP
+  package_url: https://www.npmjs.com/https-proxy-agent
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17334/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: jest-environment-jsdom
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-environment-jsdom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18413/default_867ef7396016341fd213fa568d6de11cc98fefff.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 16:43:06.000000000 Z
+- name: lodash.template
+  description: The Lodash method `_.template` exported as a module
+  package_url: https://www.npmjs.com/lodash.template
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17112/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Joe Anderson
+  last_updated_on: 2024-02-17 19:26:05.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: next-contentlayer
+  description: Contentlayer turns your content into data - making it super easy to
+    import MD
+  package_url: https://www.npmjs.com/next-contentlayer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: papaparse
+  description: Fast and powerful CSV parser for the browser that supports web workers
+    and streaming large files
+  package_url: https://www.npmjs.com/papaparse
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17945/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/serializer-csv/package.json
+  detection_source: packages/serializer-csv/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2024-02-16 16:24:19.000000000 Z
+- name: plop
+  description: Micro-generator framework that makes it easy for an entire team to
+    create files with a level of uniformity
+  package_url: https://www.npmjs.com/plop
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17943/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/code-block/package.json
+  detection_source: packages/code-block/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: prompts
+  description: Lightweight, beautiful and user-friendly prompts
+  package_url: https://www.npmjs.com/prompts
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17250/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: raf
+  description: RequestAnimationFrame polyfill for node and the browser
+  package_url: https://www.npmjs.com/raf
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16199/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/dnd/package.json
+  detection_source: packages/dnd/package.json
+  last_updated_by: TomMorane
+  last_updated_on: 2023-03-05 13:03:30.000000000 Z
+- name: react-dnd
+  description: Drag and Drop for React
+  package_url: https://www.npmjs.com/react-dnd
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16710/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: react-dnd-html5-backend
+  description: HTML5 backend for React DnD
+  package_url: https://www.npmjs.com/react-dnd-html5-backend
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16799/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: react-hotkeys-hook
+  description: React hook for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/react-hotkeys-hook
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+  last_updated_by: github-actions[bot]
+  last_updated_on: 2023-12-28 14:52:56.000000000 Z
+- name: react-is
+  description: Brand checking of React Elements
+  package_url: https://www.npmjs.com/react-is
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/e2e-examples/package.json
+  detection_source: apps/e2e-examples/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: react-syntax-highlighter
+  description: Syntax highlighting component for react with prismjs or highlightjs
+    ast using inline styles
+  package_url: https://www.npmjs.com/react-syntax-highlighter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: react-test-renderer
+  description: React package for snapshot testing
+  package_url: https://www.npmjs.com/react-test-renderer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2024-02-16 17:56:17.000000000 Z
+- name: react-textarea-autosize
+  description: Textarea component for React which grows with content
+  package_url: https://www.npmjs.com/react-textarea-autosize
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18399/default_b6c55b4b82fd22f93807b75b975c6924c9bd8f73.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/caption/package.json
+  detection_source: packages/caption/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-10-04 07:59:00.000000000 Z
+- name: remark
+  description: Markdown processor powered by plugins
+  package_url: https://www.npmjs.com/remark
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: remark-parse
+  description: Remark plugin to parse Markdown
+  package_url: https://www.npmjs.com/remark-parse
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/serializer-md/package.json
+  detection_source: packages/serializer-md/package.json
+  last_updated_by: github-actions[bot]
+  last_updated_on: 2024-02-16 23:30:00.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: slate-react
+  description: Tools for building completely customizable richtext editors with React
+  package_url: https://www.npmjs.com/slate-react
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18566/default_27683a26a828c4de36f39c196ee155306eb1eaee.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: Joe Anderson
+  last_updated_on: 2024-02-17 19:26:05.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-23 15:36:07.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 16:43:06.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-10 18:28:42.000000000 Z
+- name: tsconfig-paths
+  description: Load node modules according to tsconfig paths
+  package_url: https://www.npmjs.com/tsconfig-paths
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16810/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: unified
+  description: Interface for processing text using syntax trees
+  package_url: https://www.npmjs.com/unified
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/serializer-md/package.json
+  detection_source: packages/serializer-md/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: unist-util-visit
+  description: Recursively walk over unist nodes
+  package_url: https://www.npmjs.com/unist-util-visit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/www/package.json
+  detection_source: apps/www/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-12-27 01:57:16.000000000 Z
+- name: validator
+  description: String validation and sanitization
+  package_url: https://www.npmjs.com/validator
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16255/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/packages/serializer-docx/package.json
+  detection_source: packages/serializer-docx/package.json
+  last_updated_by: Ziad Beyens
+  last_updated_on: 2023-07-06 19:57:41.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/a-ghasemi/platejs/blob/main/apps/e2e-examples/package.json
+  detection_source: apps/e2e-examples/package.json
+  last_updated_by: zbeyens
+  last_updated_on: 2023-07-13 15:49:47.000000000 Z
